@@ -1,0 +1,8 @@
+digraph {
+	Input [shape=box]
+	Hidden_1 [shape=circle]
+	Output [shape=box]
+	Input -> Hidden_1
+	Hidden_1 -> Output
+	rankdir=LR
+}
